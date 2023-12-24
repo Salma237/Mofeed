@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+html {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-size: 18px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.btn-1 {
+    padding: 15px 30px;
+    font-size: 0.8rem;
+    color: rgba(73, 47, 37, 1);
+    text-transform: uppercase;
+    border-style: none;
+    background-color: rgb(208, 187, 167, 1);
+    font-weight: bold;
+    border-radius: 30%;
+    margin-left: 350px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #ffffff;
+    }
+}
+
+.btn-2 {
+    padding: 15px 30px;
+    font-size: 0.8rem;
+    color: rgba(73, 47, 37, 1);
+    text-transform: uppercase;
+    border-style: none;
+    background-color: rgb(208, 187, 167, 1);
+    font-weight: bold;
+    border-radius: 30%;
+    margin-right: 60px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #ffffff;
+    }
+}
+
+.btn-1 .mainHeader {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 18px;
+}
+
+#mainheader {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    left: 0;
+}
+
+#mainheader div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .h1-1 {
+    color: rgba(73, 47, 37, 1);
+}
+
+#mainheader div a {
+    color: rgba(73, 47, 37, 1);
+    text-decoration: none;
+
+    &:hover {
+        background-color: #ffffff;
+    }
+}
+
+.container .sch-1 {
+    color: rgba(73, 47, 37, 1);
+    padding: 10px 30px;
+    border-radius: 20%;
+
+}
+
+
+
+
+
+
+#sec-1 div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sec-1 article {
+    width: 55%;
+}
+
+#sec-1 article h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: rgba(73, 47, 37, 1);
+    font-family: cursive;
+}
+
+#sec-1 article h2 {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(73, 47, 37, 1);
+
+}
+
+
+#sec-1 form {
+    width: 45%;
+    background-color: rgba(14, 18, 29, 0.6);
+    border: thin solid #4b5262;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sec-1 form * {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border-style: none;
+    margin-bottom: 14px;
+}
+
+#sec-1 form h3 {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+#sec-1 .btn-3 {
+    color: rgba(73, 47, 37, 1);
+    background-color: rgb(208, 187, 167, 1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+#sec-2 {
+    background-color: rgb(208, 187, 167, 1);
+    padding: 40px 0;
+}
+
+#sec-2 h2 {
+    color: rgba(73, 47, 37, 1);
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+#sec-3 {
+    padding: 60px 0;
+    background-color: #fbfbeb;
+}
+
+#sec-3 h2 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#sec-3 figure {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#sec-3 div.container:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec-3 figure {
+    display: block;
+    width: 30%;
+}
+
+#sec-3 figure img {
+    width: 100%;
+    display: block;
+}
+
+#sec-3 figcaption {
+    background-color: rgb(208, 187, 167, 1);
+    color: rgba(73, 47, 37, 1);
+    padding: 15px 10px;
+    height: 200px;
+
+}
+
+#sec-3 figcaption h3 {
+    color: rgba(73, 47, 37, 1);
+    text-transform: capitalize;
+    margin-bottom: 16px;
+
+}
+
+#sec-3 figcaption p {
+    text-align: justify;
+    font-size: 0.9rem;
+}
+
+#sec-3 figure span {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: inline-block;
+    color: rgba(73, 47, 37, 1);
+    background-color: rgb(208, 187, 167, 1);
+    padding: 7px 12px;
+    border-radius: 5px;
+    border: thin solid #e799ac;
+    box-shadow: 0 0 4px 1px #b1839a;
+
+}
+
+
+
+
+
+#sec-4 {
+    background-color: rgb(208, 187, 167, 1);
+    padding: 40px 0;
+}
+
+#sec-4 h2 {
+    color: rgba(73, 47, 37, 1);
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+#sec-5 {
+    padding: 100px 0;
+    background-color: #fbfbeb;
+}
+
+#sec-5 h2 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#sec-5 figure {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#sec-5 div.container:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec-5 figure {
+    display: block;
+    width: 30%;
+}
+
+#sec-5 figure img {
+    width: 100%;
+    display: block;
+}
+
+#sec-5 figcaption {
+    background-color: rgb(208, 187, 167, 1);
+    color: rgba(73, 47, 37, 1);
+    padding: 15px 10px;
+    height: 170px;
+}
+
+#sec-5 figcaption h3 {
+    color: rgba(73, 47, 37, 1);
+    text-transform: capitalize;
+    margin-bottom: 16px;
+
+}
+
+#sec-5 figcaption p {
+    text-align: justify;
+    font-size: 0.9rem;
+}
+
+#sec-5 figure span {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: inline-block;
+    color: rgba(73, 47, 37, 1);
+    background-color: rgb(208, 187, 167, 1);
+    padding: 7px 12px;
+    border-radius: 5px;
+    border: thin solid #e799ac;
+    box-shadow: 0 0 4px 1px #b1839a;
+}
+
+
+
+
+
+
+#sec-6 {
+    padding: 60px 0;
+    background-color: #fbfbeb;
+}
+
+
+#sec-6 div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#sec-6 img {
+    width: 52%;
+}
+
+
+#sec-6 article {
+    width: 42%;
+}
+
+
+#sec-6 .h2 {
+    text-align: left;
+    color: #000;
+}
+
+
+#sec-6 p {
+    color: #301212;
+    margin-bottom: 16px;
+}
+
+
+#sec-6 .btnbrown {
+    padding: 12px 10px;
+    background-color: rgb(208, 187, 167, 1);
+    color: rgba(73, 47, 37, 1);
+    border-radius: 20%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+#sec-7 div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#sec-7 article {
+    width: 60%;
+}
+
+
+#sec-7 article h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+    color: rgba(73, 47, 37, 1);
+    font-family: cursive;
+}
+
+
+#sec-7 article h2 {
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(73, 47, 37, 1);
+
+}
+
+
+#sec-7 form {
+    width: 40%;
+    background-color: #b7b7a4;
+    border: thin solid #4b5262;
+    box-shadow: 0 0 4px 1px #4b5262;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+#sec-7 form * {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border-style: none;
+    margin-bottom: 6.5px;
+}
+
+
+#sec-7 form h2 {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+
+#sec-7 article p {
+    color: rgba(73, 47, 37, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sec-7 article a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(208, 187, 167, 1);
+    border-radius: 15%;
+    color: rgba(73, 47, 37, 1);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border-style: none;
+    margin-left: 10px;
+}
+
+
+#sec-7 form .btn-4 {
+    color: rgba(73, 47, 37, 1);
+    background-color: rgb(208, 187, 167, 1);
+    cursor: pointer;
+
+    &:hover {
+        background-color: #ffffff;
+    }
+
+}
+
+
+
+
+
+
+#sec-8 {
+    text-align: justify;
+    padding: 10px 0 60px;
+    color: rgba(73, 47, 37, 1);
+    text-transform: capitalize;
+    background-color: rgb(208, 187, 167, 1);
+}
+
+
+
+#sec-8 article {
+    width: 100%;
+}
+
+
+
+#sec-8 article h2 {
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 2.0rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#sec-8 article span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+
+#sec-8 article a {
+    justify-content: space-between;
+    color: rgb(41, 23, 16);
+    font-size: larger;
+}
